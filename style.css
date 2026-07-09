@@ -1,69 +1,110 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* .width-height{
     max-width: 1280px;
     margin: auto;
 } */
-.logo{
-    display: flex;
-    align-items: center;
-    gap: 0px;
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0px;
 }
 
-.logo h3{
-    padding-left: 8px;
-    
+.logo h3 {
+  padding-left: 8px;
 }
-.logo h3:hover{
-    color: #7C3AED;
+.logo h3:hover {
+  color: #7c3aed;
 }
-.logo img{
-    width: 40px
+.logo img {
+  width: 40px;
 }
-.logo img:hover{
-   background-color: #7C3AED;
-}
+/* .logo img:hover{
+   color: #7C3AED;
+} */
 /* Left SIde End */
 
 /* Middile Side and right side button */
 
-.header{
-    background-color: #f9f9f9;
-    padding: 20px 80px;
+.header {
+  background-color: #f9f9f9;
+  padding: 20px 80px;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    /* max-width: 1280px; */
-    align-items: center;
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  /* max-width: 1280px; */
+  align-items: center;
+  padding: 23px 115px;
+  background-color: #fafafa;
 }
 
- .nav-links{
-    display: flex;
-    gap: 24px;
-    list-style: none;
- }
- .nav-links a{
-    text-decoration: none;
-    color: #575757;
-    font-size: 16px;
- }
- .nav-links a:hover{
-    color: #7C3AED;
- }
- .common-btn{
-    background-color: #1D4ED8;
-    color: #FFFFFF;
-    border: none;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 41px;
-    border-radius: 12px; 
- }
- .common-btn:hover{
-    background-color: #7C3AED;
- }
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #575757;
+  font-size: 16px;
+}
+.nav-links a:hover {
+  color: #7c3aed;
+}
+.common-btn {
+  background-color: #1d4ed8;
+  color: #ffffff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 41px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.common-btn:hover {
+  background-color: #7c3aed;
+}
+/* navbar section end */
+
+/* header se;ction start */
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/banner.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-content h1 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: bold;
+  
+}
+.header-content p{
+  color: #f5f4f4;
+  font-size: 18px;
+  font-weight: lighter;
+  margin-top: 16px;
+}
+.header-content button{
+  width: 12%;
+  height: 7%;
+  font-size: 18px;
+  margin-top: 278px;
+}
+/* Header Banner Section End */
