@@ -107,7 +107,7 @@ header {
 .header-content button {
   width: 12%;
   height: 7%;
-  font-size: 14px;
+  font-size: 18px;
   margin-top: 278px;
 }
 /* Header Banner Section End */
@@ -120,4 +120,47 @@ header {
   font-weight: bold;
   margin-bottom: 56px;
 }
-
+.developer-container h1:hover{
+  color: #7c3aed;
+}
+.developers{
+  width: 90%;
+  margin: 60px auto;
+}
+.developers{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+}
+.card{
+  border: 1px solid#ddd;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.card img{
+  width: 100%;
+  object-fit: cover;
+  /* height: 324px; */
+  display: block;
+}
+.card-content{
+  padding: 24px;
+}
+.card-content small{
+  color:#2563EB;
+  font-size: 12px;
+  font-weight: 600;
+  
+}
+.card-content h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #0D1B2A;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.card-content p{
+  font-size: 14px;
+  font-weight: normal;
+}
+/* Developers Section End */
