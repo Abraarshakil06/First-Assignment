@@ -113,143 +113,181 @@ header {
 /* Header Banner Section End */
 
 /* Developer Section Start */
-.developer-container h1{
+.developer-container h1 {
   text-align: center;
   margin-top: 80px;
   font-size: 50px;
   font-weight: bold;
   margin-bottom: 56px;
 }
-.developer-container h1:hover{
+.developer-container h1:hover {
   color: #7c3aed;
 }
-.developers{
+.developers {
   width: 90%;
   margin: 60px auto;
 }
-.developers{
+.developers {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 32px;
 }
-.card{
+.card {
   border: 1px solid#ddd;
   overflow: hidden;
   border-radius: 10px;
 }
-.card img{
+.card img {
   width: 100%;
   object-fit: cover;
   /* height: 324px; */
   display: block;
 }
-.card-content{
+.card-content {
   padding: 24px;
 }
-.card-content small{
-  color:#2563EB;
+.card-content small {
+  color: #2563eb;
   font-size: 12px;
   font-weight: 600;
-  
 }
-.card-content h3{
+.card-content h3 {
   font-size: 20px;
   font-weight: bold;
-  color: #0D1B2A;
+  color: #0d1b2a;
   margin-bottom: 8px;
   margin-top: 8px;
 }
-.card-content p{
+.card-content p {
   font-size: 14px;
   font-weight: normal;
 }
 /* Developers Section End */
 
 /* pricing section start */
-.pricing{
+.pricing {
   width: 90%;
   margin-right: 80px auto;
   text-align: center;
-  
 }
-.pricing h2{
+.pricing h2 {
   font-size: 48px;
   font-weight: bold;
-  color: #0D1B2A;
+  color: #0d1b2a;
 }
-.subtitle{
+.subtitle {
   font-size: 16px;
   font-weight: 400;
   color: #575757;
   margin-bottom: 48px;
 }
-.pricing-container{
+.pricing-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-left: 200px;
-  
 }
 
-.p-card{
+.p-card {
   border: 1px solid#ddd;
   border-radius: 10px;
   padding: 30px;
   text-align: left;
 }
-.pro-card{
-  background-color: #0D1B2A;
+
+.pro-card {
+  background-color: #0d1b2a;
   border-radius: 10px;
   color: white;
   text-align: left;
   padding: 30px;
   text-align: left;
 }
-.pro-card h1{
+.pro-card h1 {
   font-size: 44px;
   font-weight: bold;
   margin: 10px 0;
 }
-.pro-card ul{
+.pro-card ul {
   margin: 30px 0;
   padding-left: 20px;
-  
 }
-.pro-card li{
+.pro-card li {
   margin-bottom: 20px;
-  list-style: color #2563EB;;
+  list-style: color #2563eb;
 }
-.p-card h1{
+.p-card h1 {
   font-size: 44px;
   font-weight: bold;
   margin: 10px 0;
 }
-.p-card ul{
+.p-card ul {
   margin: 30px 0;
   padding-left: 20px;
 }
-.p-card li{
+.p-card li {
   margin-bottom: 20px;
 }
-li::marker{
-  color: #2563EB;
+li::marker {
+  color: #2563eb;
 }
-.standard-btn{
+.standard-btn {
   width: 100%;
   padding: 12px;
   border-radius: 5px;
   border: 1px solid#2563EB;
-  color: #2563EB;
+  color: #2563eb;
   background-color: white;
   cursor: pointer;
 }
-.pro-btn{
-  background-color: #2563EB;
+.pro-btn {
+  background-color: #2563eb;
   color: white;
   border: none;
   width: 100%;
   padding: 12px;
   border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Seection Start */
+
+.footer {
+  margin-top: 128px;
+  background-color: #0D1B2A;
+  padding: 56px 0;
   
   
 }
+.footer-container{
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer p{
+  font-size: 13px;
+  font-weight: lighter;
+  color: #cfc7c7;
+}
+.footer :hover{
+  color: white;
+}
+.footer-links{
+  display: flex;
+  gap: 24px;
+  
+}
+.footer-links a{
+  text-decoration: none;
+  color: #cfc7c7;
+  font-size: 13px;
+  font-weight: lighter;
+}
+.footer-links :hover{
+  color: white;
+}
+
+/* Footer Section End */
